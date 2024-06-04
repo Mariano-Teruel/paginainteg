@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="solicitud_cliente.css">
+    <link rel="stylesheet" href="factibilidad.css">
+    <title>Registro factibilidad</title>
+</head>
+<body>
+    <div class="form">
+        <a href="principal_tec.html">
+            <button class="boton">Volver</button></a><br><br>
+    <form method="post">
+        <h3>PRUEBA DE FACTIBILIDAD</h3><br>
+        <label for="ffact">Ingrese la fecha que realizó la prueba</label><br>
+        <input class="campos" type="date" name="fecha" id="fecha" required>
+        <label for="hfact">Ingrese la hora</label>
+        <input class="campos" type="time" name="hora" id="hora" required>
+        <input class="campos" type="text" name="nombre" id="nombre" placeholder="Ingrese el dni del tecnico que la hizo" required>
+        <input class="campos" type="text" name="soli" id="soli" placeholder="Indique a que solicitud pertenece" required>
+        <label for="rfact" required>Resultado prueba de factibilidad</label><br>
+        <input type="checkbox">exito<br>
+        <input type="checkbox">fallo<br>
+        <input class="boton" type="submit" name="boton" id="boton" value="Guardar" >
+        
+    </form>
+    
+</div>
+</body>
+</html>

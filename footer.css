@@ -1,0 +1,36 @@
+footer {
+    background-color: rgb(46, 36, 36);
+    padding-top: 10px;
+    padding-bottom: 155px;
+    padding-left: 10px;
+    margin-top: 15%;
+}
+
+.general {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secciongeneral {
+    flex: 1;
+}
+
+.secciongeneral ul {
+    list-style-type: none; /* Elimina los puntos de lista por defecto */
+    padding: 0;
+}
+
+.secciongeneral ul li {
+    margin: 15px 0; 
+}
+
+.secciongeneral ul li a {
+    
+    color: white;
+    text-decoration: none;
+}
+
+.secciongeneral a:hover {
+    text-decoration: underline; /* Subraya el enlace al pasar el mouse */
+}

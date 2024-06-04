@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgba(0, 0, 173, 0.6);
+    
+}
+form{
+    border: 2px solid #000; 
+    padding: 10px; max-width: 35%;
+    margin-left: 30% ;
+    margin-bottom: 100px;
+    background-color: rgba(13, 13, 13, 0.17);
+
+}
+form h3{
+    text-align: center;
+}
+
+.campos{
+    padding: 5px;
+    margin-block-end: 10px;
+    margin-block-start: 10px;
+    background-color: rgba(185, 182, 178, 0.601);
+    color: #0a0505;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 16px;
+}
+.h1deform{
+padding-left:20px ;
+}
+.boton{
+    padding: 8px;
+    margin-top:5px ;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.76);
+
+}
+.boton:hover {
+    background-color: #0f42da;
+    color: black; 
+}
+header{
+    background-color: rgb(46, 36, 36);
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 20px;
+    
+    position: sticky;
+    top: 0;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+   
+  }
+  
+ nav ul li {
+    margin-left: 20px;
+    width: 300px;
+  }
+  
+  img{
+    max-width: 50%;
+    margin:auto;
+    border-radius: 30px;
+}
+  nav ul li a {
+    text-decoration: none;
+    color: #0f89dac9;
+    width: 50px;
+    
+  }
+  .logo {
+    width: 10%;
+}
+
+
+select{
+    background-color:rgba(185, 182, 178, 0.601) ;
+    border-radius: 3px;
+    border: none;
+    padding: 4px;
+}
+table{
+    border: 1px solid black;
+}
+.divcontenido{
+    flex: 1;
+}
+.locker{
+    color: #0f89dac9;
+}
